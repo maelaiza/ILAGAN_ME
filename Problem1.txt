@@ -5,7 +5,7 @@ while ( true )
     age ← input
 
     // Check if the input age is a valid number
-    If ( age is a number )
+    If ( age is not a number )
         output "Invalid input. Please enter a valid number."
         continue
     endif

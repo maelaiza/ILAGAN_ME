@@ -20,5 +20,5 @@ for ( increase i from 1 to N - 1 )
     // If no swaps happened, the array is sorted
     if ( Swapped == False )
         break
-    endIf
+    endif
 endfor

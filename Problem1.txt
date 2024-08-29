@@ -11,7 +11,7 @@ while ( true )
     endif
 
     // Convert input to integer if necessary
-    age ← ConvertToString(age)
+    age ← ConvertToInteger(age)
 
     // Check if the age is within the specified range
     If ( age >= minAge AND age <= maxAge )
